@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignalML - Библиотека методов машинного обучения для анализа сигналов</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SignalML</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">О проекте</a>
+                <a href="#workflow" class="nav-link">Как работает</a>
+                <a href="#gallery" class="nav-link">Результаты</a>
+                <a href="#technologies" class="nav-link">Технологии</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Библиотека методов машинного обучения для комплексного анализа сигналов</h1>
+            <p class="hero-description">Инновационное решение для обработки, анализа и классификации сигналов с использованием передовых алгоритмов машинного обучения</p>
+            <div class="hero-buttons">
+                <a href="#gallery" class="btn btn-primary nav-link">Посмотреть результаты</a>
+                <a href="#contact" class="btn btn-secondary nav-link">Связаться с нами</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="signal-visualization">
+                <div class="signal-wave primary-wave"></div>
+                <div class="signal-wave secondary-wave"></div>
+                <div class="signal-points"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">О проекте</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Наша библиотека предоставляет комплексное решение для анализа сигналов различных типов - от аудио и радиосигналов до медицинских данных и телеметрии.</p>
+                    <p>Мы объединяем классические методы обработки сигналов с современными подходами машинного обучения, чтобы предложить исследователям и инженерам мощный инструмент для извлечения ценной информации из сложных данных.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <h3>Высокая производительность</h3>
+                            <p>Оптимизированные алгоритмы для работы с большими объемами данных в реальном времени</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Гибкая архитектура</h3>
+                            <p>Модульная структура позволяет легко адаптировать библиотеку под конкретные задачи</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Визуализация результатов</h3>
+                            <p>Встроенные инструменты для наглядного представления данных и анализа результатов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как работает -->
+    <section id="workflow" class="section workflow">
+        <div class="container">
+            <h2 class="section-title">Как работает наше решение</h2>
+            <div class="workflow-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Загрузка и предобработка данных</h3>
+                        <p>Поддержка различных форматов сигналов, автоматическая очистка и нормализация данных</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Извлечение признаков</h3>
+                        <p>Применение преобразований Фурье, вейвлет-преобразований и других методов для выделения характеристик сигнала</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Применение ML алгоритмов</h3>
+                        <p>Классификация, кластеризация и прогнозирование с использованием современных методов машинного обучения</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Визуализация и интерпретация</h3>
+                        <p>Наглядное представление результатов анализа в виде графиков, диаграмм и отчетов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея результатов -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Примеры результатов</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-image chart-placeholder">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-description">
+                        <h3>Спектральный анализ аудиосигнала</h3>
+                        <p>Выявление характерных частотных паттернов в аудиозаписи с помощью преобразования Фурье</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-image chart-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-description">
+                        <h3>Анализ ЭКГ сигналов</h3>
+                        <p>Автоматическое определение аномалий в кардиограммах</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-image chart-placeholder">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-description">
+                        <h3>Обработка вибрационных сигналов</h3>
+                        <p>Выделение полезной информации из зашумленных вибро-сигналов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Технологии -->
+    <section id="technologies" class="section technologies">
+        <div class="container">
+            <h2 class="section-title">Используемые технологии</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Основной язык разработки библиотеки</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>TensorFlow</h3>
+                    <p>Глубокое обучение и нейронные сети</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>PyTorch</h3>
+                    <p>Альтернативная платформа для ML исследований</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>LibROSA</h3>
+                    <p>Обработка аудиосигналов</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-chart-area"></i>
+                    </div>
+                    <h3>Matplotlib</h3>
+                    <p>Визуализация данных и результатов</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>NumPy/SciPy</h3>
+                    <p>Научные вычисления и работа с массивами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Наши контакты</h3>
+                    <p>Готовы ответить на ваши вопросы о библиотеке и сотрудничестве</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info.signalml@bk.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/OwnGlory/MIRA_Lib</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Казань, Россия</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">SignalML</span>
+                    <p>Библиотека методов автоматизированного машинного обучения, предназначенная для решения задач комплексного анализа сигналов.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">О проекте</a>
+                    <a href="#workflow">Как работает</a>
+                    <a href="#gallery">Результаты</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/OwnGlory/MIRA_Lib"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SignalML. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
