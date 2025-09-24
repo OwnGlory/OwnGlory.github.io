@@ -128,6 +128,47 @@ body {
     border-radius: 3px;
 }
 
+/* Стили для логотипа в навигации */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: var(--transition);
+    border-radius: 4px;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 32px;
+    }
+    
+    .nav-logo .logo-text {
+        font-size: 1.4rem;
+    }
+}
+
+/* Дополнительно: можно добавить логотип в футер */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+}
+
+.footer-logo .logo-img {
+    height: 30px;
+}
+
 /* Герой секция */
 .hero {
     min-height: 100vh;
